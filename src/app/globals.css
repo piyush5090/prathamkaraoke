@@ -1,5 +1,12 @@
 @import "tailwindcss";
 
+
+/* src/app/globals.css */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px; /* Adjusts for your sticky header height so it doesn't overlap text */
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
