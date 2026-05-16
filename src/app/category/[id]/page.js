@@ -44,7 +44,7 @@ export default function CategoryPage() {
   if (!categoryInfo) return <div className="p-20 text-center text-slate-700 font-bold bg-slate-50 h-screen">Console Archive Error: Category not found.</div>;
 
   return (
-    <div className="min-h-screen font-sans tracking-normal relative overflow-hidden pb-24 bg-gradient-to-r from-[#070A11] via-[#1A2332] to-[#EAECEF]">
+    <div className="min-h-screen font-sans tracking-normal relative overflow-hidden pb-24 bg-gradient-to-r from-[#070A11] via-[#1A2332] to-[#1A2332]">
       
       {/* Carbon Fiber Background Grid Overlay - Balanced Density */}
       <div className="absolute inset-0 right-[40%] opacity-[0.02] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] mix-blend-overlay"></div>

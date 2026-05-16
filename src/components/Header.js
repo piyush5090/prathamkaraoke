@@ -103,12 +103,12 @@ export default function Header() {
 
         {/* Right Action Block */}
         <div className="flex items-center gap-2 shrink-0">
-          <Link 
+          {/* <Link 
             href="/customize" 
             className="hidden md:flex bg-slate-900 text-white px-4 py-2 rounded-xl text-xs font-bold uppercase tracking-[0.12em] items-center gap-1 hover:bg-slate-800 transition-all shadow-sm"
           >
             <Sliders size={11} /> Customize
-          </Link>
+          </Link> */}
 
           <button 
             type="button"
@@ -144,7 +144,7 @@ export default function Header() {
                   handleNavigation(e, link);
                   if (!link.isAnchor || pathname !== '/') setMobileMenuOpen(false);
                 }}
-                className={`text-sm font-normal py-2.5 border-b border-slate-50 flex justify-between items-center transition-colors ${
+                className={`text-sm font-bold py-2.5 border-b border-slate-50 flex justify-between items-center transition-colors ${
                   isActive 
                     ? 'text-blue-600 font-medium' 
                     : 'text-slate-600 hover:text-slate-900'

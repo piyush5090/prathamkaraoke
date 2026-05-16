@@ -6,7 +6,7 @@ export default function CategoryCards() {
   return (
     <section 
       id="categories" // Link anchor id matching header navigation updates
-      className="relative py-20 px-4 sm:px-6 md:px-12 overflow-hidden font-sans tracking-normal bg-gradient-to-r from-[#070A11] via-[#1A2332] to-[#EAECEF]"
+      className="relative py-20 px-4 sm:px-6 md:px-12 overflow-hidden font-sans tracking-normal bg-gradient-to-r from-[#070A11] via-[#1A2332] to-[#1A2332]"
     >
       {/* Carbon Fiber Background Grid Overlay - Restricted to Left Side */}
       <div className="absolute inset-0 right-[40%] opacity-[0.02] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] mix-blend-overlay"></div>
@@ -30,7 +30,7 @@ export default function CategoryCards() {
               Genre.
             </h2>
           </div>
-          <p className="text-xs sm:text-sm font-medium text-black max-w-xs md:text-right leading-relaxed">
+          <p className="text-xs sm:text-sm font-medium text-white max-w-xs md:text-right leading-relaxed">
             Select your musical ecosystem and discover professionally engineered backing tracks.
           </p>
         </div>

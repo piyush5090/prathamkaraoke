@@ -42,7 +42,7 @@ export default function Hero() {
   if (!mounted) return <div className="h-[calc(100vh-68px)] w-full bg-[#0B0F19]"></div>;
 
   return (
-    <section className="relative h-auto lg:h-[calc(100vh-68px)] min-h-[550px] w-full flex items-center overflow-hidden px-4 sm:px-6 md:px-12 py-8 lg:py-0 font-sans tracking-tight bg-gradient-to-r from-[#070A11] via-[#1A2332] to-[#EAECEF]">
+    <section className="relative h-auto lg:h-[calc(100vh-68px)] min-h-[550px] w-full flex items-center overflow-hidden px-4 sm:px-6 md:px-12 py-8 lg:py-0 font-sans tracking-tight bg-gradient-to-r from-[#070A11] via-[#1A2332] to-[##1A2332]">
       {/* Carbon Fiber Background Grid Overlay */}
       <div className="absolute inset-0 right-[40%] opacity-[0.02] pointer-events-none bg-[url('https://www.transparenttextures.com/patterns/carbon-fibre.png')] mix-blend-overlay"></div>
       
