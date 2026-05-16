@@ -1,0 +1,14 @@
+{
+  "brandName": "Pratham Karaoke",
+  "contact": {
+    "whatsapp": "+917566602525",
+    "call": "+917566602525"
+  },
+  "stats": {
+    "totalTracks": 1200,
+    "deliveredCount": 3500
+  },
+  "pricing": {
+    "startingAt": 500
+  }
+}
